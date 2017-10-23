@@ -10,6 +10,8 @@ import org.junit.Test;
 public class FileHandlerTest {
 
 
+
+
     @Test
     public void shouldAppendData() throws Exception {
         ExperimentData experimentData = new ExperimentData().setDataType(DataType.WALKING).setTimeStamp(System.currentTimeMillis()).setValue("1");
